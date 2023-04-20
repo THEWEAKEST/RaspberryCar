@@ -12,13 +12,13 @@
   and the correct orders of using swig is:
   
   
-  unix % swig -tcl example.i   /*generate example_wrap.c*/
+  unix % swig -tcl example.i   /\*generate example_wrap.c\*/
   
   
-  unix % g++ -fpic -c example.cpp example_wrap.c -I/usr/local/include -I/usr/include/tcl /*generate example.o and example_wrap.o*/
+  unix % g++ -fpic -c example.cpp example_wrap.c -I/usr/local/include -I/usr/include/tcl /\*generate example.o and example_wrap.o\*/
   
   
-  unix % g++ -shared example.o example_wrap.o -o main.so /*generate example.so*/
+  unix % g++ -shared example.o example_wrap.o -o main.so /\*generate example.so\*/
   
   
   unix % tclsh
