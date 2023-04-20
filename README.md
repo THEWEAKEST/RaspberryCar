@@ -32,3 +32,9 @@
   Python.h is in /usr/include/python3.10
   
   You should use -I/usr/include/python3.10
+  
+  ## note
+  
+  ### 1
+  
+  Use header file to let other program call this module .
