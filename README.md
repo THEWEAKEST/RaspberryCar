@@ -1,3 +1,7 @@
+```
+g++ -o main main.cpp -lwiringPi -lwiringPiDev -lncurses
+```
+
 # RaspberryCar
 
 ## error
